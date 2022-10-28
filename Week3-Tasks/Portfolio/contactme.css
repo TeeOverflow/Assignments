@@ -1,0 +1,184 @@
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: var(--backgroundcolor);
+
+}
+
+/* Declaring CSS variables */
+:root {
+    /* Colors */
+    --backgroundcolor: #181818;
+    --backgroundcolor2: #2C2C2C;
+    --buttoncolor: #275E27;
+    --buttoncolor2:#9BDD9B;
+    --textcolor: white;
+    --textcolor2: #DDDDDD;
+}
+
+
+
+main {
+padding-inline: 6em;
+/* max-width: 1440px; */
+background-color: var(--backgroundcolor);
+color: white;
+height: 100vh;
+}
+
+/* Styling the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 6em;
+    height: 4.25em;
+    background-color: var(--backgroundcolor);
+    color: white;
+    align-items: center;
+   }
+
+header nav ul {
+    display: flex;
+    gap: 1.5em;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--textcolor2);
+}
+
+header nav ul li a:hover {
+    color: var(--buttoncolor2);
+}
+
+header p {
+background-color: var(--buttoncolor);
+padding: 0.5em 1.2em;
+border-radius: 4px;
+}
+
+header p:hover {
+    background-color: var(--buttoncolor2);
+    color: var(--backgroundcolor);
+}
+
+/* Styling the main sections */
+
+
+.bigfont {
+    font-size: 2.8em;
+}
+
+.bodyfont {
+    font-size: 1.2em;
+    font-weight: 200;
+    color: var(--textcolor2);
+}
+
+.bodyfont2 {
+    color: var(--textcolor2);
+    font-weight: 200;
+}
+
+.textspace {
+margin-bottom: 2em;
+margin-top: 1.2em;
+}
+
+.button {
+background-color: var(--buttoncolor);
+color: var(--textcolor2);
+width: 50%;
+text-align: center;
+padding: 0.8em 1.2em;
+border-radius: 4px;
+font-size: large;
+}
+
+.button2 {
+    font-size: large;
+    color: var(--buttoncolor2);
+    text-decoration: underline;
+}
+
+
+
+.mediumfont {
+    font-size: 2em;
+}
+        h2 {
+            text-align: center;
+            margin-top: 64px;
+        }
+        main p {
+            text-align: center;
+            margin-top: 12px;
+            text-decoration: underline;
+        }
+       main ul {
+            margin-right: auto;
+         margin-left: auto;
+            margin-top: 24px;
+        }
+
+        main ul li {
+            margin-bottom: 8px;
+            color: var(--buttoncolor2);
+          text-align: center;
+          list-style-type: none;
+        }
+    
+        /* Footer */
+        footer {
+            display: flex;
+            justify-content: space-between;
+            padding-inline: 6em;
+            height: 4.25em;
+            background-color: var(--backgroundcolor2);
+            color: white;
+            align-items: center;
+        }
+        
+        footer nav ul {
+            display: flex;
+            gap: 1.5em;
+        }
+        
+        footer nav ul li {
+            list-style-type: none;
+        }
+        
+        footer nav ul li a {
+            text-decoration: none;
+            color: var(--textcolor2);
+        }
+        
+        footer nav ul li a:hover {
+            color: var(--buttoncolor2);
+        }
+        
+        footer p {
+        background-color: var(--buttoncolor);
+        padding: 0.5em 1.2em;
+        border-radius: 4px;
+        }
+        
+        footer p:hover {
+            background-color: var(--buttoncolor2);
+            color: var(--backgroundcolor);
+        }
+
